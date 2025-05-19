@@ -47,7 +47,7 @@ jobs:
     steps:
       # https://github.com/actions/checkout
       - name: checkout repo
-        uses: actions/checkout@v.4
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: use nodes.js
